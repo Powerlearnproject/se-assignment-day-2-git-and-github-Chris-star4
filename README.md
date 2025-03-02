@@ -116,12 +116,12 @@ It is a crucial part of the collaborative workflow because it:
 2. Prevents Bugs & Errors – Helps catch mistakes early
 3. Encourages Discussion – Provides a space for feedback and improvement
 4. Tracks Changes – Keeps a history of modifications and discussions
-   1️⃣ Create a New Branch for Your Changes
+1. Create a New Branch for Your Changes
 i) Before making changes, create a branch instead of working directly on main:git checkout -b feature-branch
 ii) Make changes, stage them, and commit:git add .
                                          git commit -m "Added a new feature"
 iii) Push the branch to GitHub: git push origin feature-branch
-2️⃣ Open a Pull Request on GitHub
+2. Open a Pull Request on GitHub
 i) Go to your repository on GitHub.
 ii) Click "Compare & pull request" next to the pushed branch.
 iii) Write a clear title and description for the PR:
@@ -129,7 +129,7 @@ iii) Write a clear title and description for the PR:
     *Mention any related issues (e.g., Fixes #42).
 iv) Assign reviewers (team members who will check your code).
 v) Click "Create pull request" to submit it for review.
-3️⃣ Code Review & Discussion
+3. Code Review & Discussion
 *Team members can comment on specific lines of code.
 *Requested changes can be made by committing new updates to the same branch.
 *Approvals are given once the changes meet quality standards.
@@ -193,3 +193,7 @@ Best practices
 3. Pull Before You Push – Always pull the latest changes to avoid conflicts
 4. Use GitHub Issues & Project Boards – Track bugs, tasks, and progress effectively
 Common pitfalls new users may encounter
+1. Not Using Branches Properly: New users may commit directly to the main branch, which can lead to conflicts and unstable code
+2. Merge Conflicts: When multiple developers edit the same file, conflicts can arise, making merging difficult
+3. Not Writing Descriptive Commit Messages: Vague messages like “Update file” make it hard to track changes
+4. Ignoring .gitignore Files: Forgetting to use a .gitignore file can lead to unnecessary files being tracked
